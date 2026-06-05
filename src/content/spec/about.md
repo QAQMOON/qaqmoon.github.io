@@ -1,49 +1,31 @@
-
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/LyraVoid/Mizuki) theme.
-
-::github{repo="LyraVoid/Mizuki"}
-
-## 🌟 Theme Features
-
-### 🎨 Design & User Experience
-- **Modern & Elegant Design** - Clean, minimalist interface with beautiful typography
-- **Fully Responsive** - Optimized for all devices from mobile to desktop
-- **Dark/Light Mode** - Automatic theme switching with smooth transitions
-- **Beautiful Typography** - Enhanced readability with JetBrains Mono font
-- **Smooth Animations** - Fluid page transitions and interactive elements
-
-### 🔍 Content & Search
-- **Advanced Search** - Powered by [Pagefind](https://pagefind.app/) for fast, accurate results
-- **Enhanced Markdown** - Extended syntax with code highlighting and math support
-- **Interactive Table of Contents** - Auto-scroll navigation for long articles
-- **RSS Feed Generation** - Stay updated with automatic feed generation
-- **Reading Time Estimation** - Know how long articles take to read
-- **Post Categorization** - Organize content with tags and categories
-
-
-
-### 📱 Special Pages
-- **Anime Tracking Page** - Track your anime watching progress with ratings
-- **Friends Links Page** - Showcase friend websites with beautiful cards
-- **Diary/Moments Page** - Share life moments like social media posts
-- **Archive Page** - Organized timeline view of all posts
-- **About Page** - Customizable personal introduction (this page!)
-
-### 🛠 Technical Features
-- **Enhanced Code Blocks** - Powered by [Expressive Code](https://expressive-code.com/)
-- **Math Support** - LaTeX rendering with KaTeX for mathematical expressions
-- **Image Optimization** - PhotoSwipe gallery with lazy loading
-- **SEO Optimized** - Built-in sitemap and meta tags for better search visibility
-- **Performance Optimized** - Fast loading with caching and optimization
-- **Comment System Ready** - Integration support for Twikoo comments
-
-### 🎯 Advanced Markdown Features
-- **Callouts & Admonitions** - Beautiful info boxes with `> [!NOTE]`, `> [!TIP]`, `> [!WARNING]`
-- **Mathematical Equations** - Write LaTeX math with `$inline$` and `$$block$$` syntax
-- **GitHub Cards** - Embed repository cards with `::github{repo="user/repo"}`
-- **Syntax Highlighting** - Advanced code highlighting with line numbers
-- **Copy Code Buttons** - Easy code copying functionality
-
+---
+title: 关于
 ---
 
-*Built with ❤️ using Astro and inspired by modern web design principles.*
+这里是 QAQMOON 的个人网站。
+
+我会把这里当成一个长期整理的地方：记录服务器折腾、AI 工具配置、个人网站搭建、博客写作，以及一些带二次元审美的小玩意。
+
+## 现在这个站是什么
+
+这个站目前是一个刚迁移完成的静态博客。它使用 Astro 构建，页面视觉基于开源主题 [Mizuki](https://github.com/LyraVoid/Mizuki) 做二次开发和个性化。
+
+我不会把主题示例内容当成自己的内容发布。现在站点已经清理成一个个人站起步版，后续会逐步替换头像、横幅、文章、项目页和更多细节。
+
+## 计划写什么
+
+- AI 工具和 API 中转站的配置记录
+- 阿里云轻量服务器、Docker、New API 的搭建笔记
+- GitHub Pages 和静态博客维护
+- 个人网站设计、主题改造和踩坑记录
+- 偶尔写一点生活、动画、游戏和想法
+
+## 站点源码
+
+源码放在 GitHub：
+
+::github{repo="QAQMOON/qaqmoon.github.io"}
+
+主题来源：
+
+::github{repo="LyraVoid/Mizuki"}
