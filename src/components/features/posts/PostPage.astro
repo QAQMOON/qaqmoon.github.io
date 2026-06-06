@@ -1,4 +1,6 @@
 ---
+import { Icon } from "astro-icon/components";
+
 import { siteConfig } from "../../../config";
 import { widgetManager } from "../../../utils/widget-manager";
 import PostCard from "./PostCard.astro";
@@ -14,6 +16,19 @@ const hasRightSidebars =
 const defaultLayout = siteConfig.postListLayout.defaultMode || "list";
 const initialLayoutClass = defaultLayout === "grid" ? "grid-mode" : "list-mode";
 ---
+
+<section class="qaq-posts-section onload-animation">
+	<div class="qaq-section-title">
+		<div class="qaq-section-heading">
+			<Icon name="material-symbols:star-rounded" />
+			<h2>最新文章</h2>
+		</div>
+		<a href="/archive/" class="qaq-section-link">
+			<span>查看全部</span>
+			<Icon name="material-symbols:arrow-forward-rounded" />
+		</a>
+	</div>
+</section>
 
 <div
 	id="post-list-container"
