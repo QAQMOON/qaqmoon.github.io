@@ -1,7 +1,7 @@
 import type { MusicPlayerConfig } from "../types/config";
 
 export const musicPlayerConfig: MusicPlayerConfig = {
-	enable: false,
+	enable: true,
 	showFloatingPlayer: false,
 	floatingEntryMode: "fab",
 	mode: "local",
