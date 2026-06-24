@@ -8,7 +8,14 @@ export interface DiaryItem {
 	tags?: string[];
 }
 
-const diaryData: DiaryItem[] = [];
+const diaryData: DiaryItem[] = [
+	{
+		id: 1,
+		content: "个人碎碎念",
+		date: "2026-06-25T00:00:00+08:00",
+		tags: ["个人碎碎念"],
+	},
+];
 
 export const getDiaryList = (limit?: number) => {
 	const sortedData = [...diaryData].sort(
