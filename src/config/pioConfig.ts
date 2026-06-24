@@ -10,7 +10,7 @@ export const pioConfig: PioConfig = {
 	hiddenOnMobile: true,
 	hideAboutMenu: true,
 	dialog: {
-		welcome: "欢迎来到 QAQMOON 的小站。",
+		welcome: "欢迎来到 MOON 的小站。",
 		touch: ["别戳啦，去看看文章吧。", "这里还在装修中。"],
 		home: "回到首页。",
 		skin: ["换个状态？", "好了。"],

@@ -19,7 +19,7 @@ export interface Project {
 export const projectsData: Project[] = [
 	{
 		id: "qaqmoon-blog",
-		title: "QAQMOON Blog",
+		title: "MOON Blog",
 		description: "基于 Astro 和 Mizuki 改造的个人博客，用来记录网站、服务器和 AI 工具折腾过程。",
 		image: "",
 		category: "web",

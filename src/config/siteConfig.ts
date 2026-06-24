@@ -3,10 +3,10 @@ import type { SiteConfig } from "../types/config";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "QAQMOON",
+	title: "MOON",
 	subtitle: "个人笔记、AI 工具与一点二次元审美",
 	siteURL: "https://qaqmoon.github.io/",
-	keywords: ["QAQMOON", "个人博客", "AI", "二次元", "技术笔记"],
+	keywords: ["MOON", "个人博客", "AI", "二次元", "技术笔记"],
 	siteStartDate: "2026-06-06",
 
 	lang: SITE_LANG,
@@ -29,7 +29,7 @@ export const siteConfig: SiteConfig = {
 
 	navbarTitle: {
 		mode: "text-icon",
-		text: "QAQMOON",
+		text: "MOON",
 		icon: "assets/home/home.webp",
 		logo: "assets/home/default-logo.webp",
 	},
@@ -108,10 +108,10 @@ export const siteConfig: SiteConfig = {
 		},
 		homeText: {
 			enable: true,
-			title: "QAQMOON 的小站",
+			title: "MOON 的小站",
 			switchable: true,
 			subtitle: [
-				"记录折腾服务器、AI 工具和个人网站的过程",
+				"一点点个人碎碎念.",
 				"这里先从一个干净的博客开始，慢慢长出自己的样子",
 				"模板只是骨架，内容会一点点换成真正属于我的东西",
 			],
